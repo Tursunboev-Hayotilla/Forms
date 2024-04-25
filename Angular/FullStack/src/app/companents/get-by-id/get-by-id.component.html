@@ -1,0 +1,15 @@
+<input type="number" class="form-control" [(ngModel)]="myId">
+<br>
+
+<button class="btn btn-success" (click)="getById()">Find User</button>
+<br>
+<br>
+<hr>
+@if(isEmpty){
+  <h1>{{ programmer.id }}</h1>
+  <h1>{{ programmer.fullName }}</h1>
+  <h1>{{ programmer.about }}</h1>
+}
+@else{
+  <h1>Not found</h1>
+}

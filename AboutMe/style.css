@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 36px;
+    font-family: cursive;
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+
+.logo span {
+    font-size: 36px;
+    font-family: cursive;
+    color: white;
+}
+
+.mainheader {
+    background-color: rgb(30, 26, 26);
+}
+header {
+    background-color:chocolate;
+}
+
+
+.navbar {
+    margin-top: 5px;
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    font-size: 28px;
+    font-family: cursive;
+    margin-left: 9px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: white;
+    border-radius: 10px;
+}
+
+.my-photo img {
+    border-radius: 50%;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 200px;
+    height: 400px;
+    float: left;
+}
+
+.about-anything .content {
+    margin-top: 220px;
+    margin-left: 100px;
+    float: left;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+    background-color:rgb(38, 35, 35);
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.expbody {
+    background-color:black
+}
+.abbody{
+    background-color: bisque;
+}
+.clr {
+    clear: both;
+}
+h2 {
+    margin-top: 10px;
+    color: #fff;
+}
+.programming {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.footerab {
+    width: 100%;
+    background-color: chocolate;
+    margin-top: 40px;
+    text-align: center;
+}
+.contact{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github-status {
+    display: flex;
+    margin: o auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.github-status-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+.mainbd {
+    background-image: url('./pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.abbody {
+    background-image: url(./pngtree-powder-smoke-colorful-background-image_2164096.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}

@@ -1,0 +1,39 @@
+.box {
+    border-radius: 2px ;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    margin: 5px;
+  }
+            
+  .cell {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    text-align: center;
+    background-color: limegreen;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  .cell-black {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 0px;
+  }
+  
+  .empty {
+    background-color: white;
+  }
+  
+  .body{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  

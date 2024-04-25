@@ -1,0 +1,15 @@
+*{
+    max-width: 0;
+    padding: 0;
+ 
+}
+
+.Main{
+    width: 600px;
+    height: 400px;
+    background-color: #ff0000;
+}
+
+img{
+    background-attachment: fixed;
+}

@@ -1,0 +1,49 @@
+<form class="submit-form">
+
+
+        <div class="form-group">
+            <label for="id">ID</label>
+                <input type="number" class="form-control" id="id" placeholder="enter ID" [(ngModel)]="myId" name="id">
+                <br>
+                <button class="btn btn-success" (click)="getById()">Find User</button>
+        </div>
+        <br>
+        @if(isEmpty){
+        <div class="form-group">
+            <label for="fullName">FullName</label>
+            <input type="text" class="form-control" id="name" placeholder="enter name" value="{{programmer.fullName}}" [(ngModel)]="setValue.fullName" name="name">
+        </div>
+    
+        <div class="form-group">
+          <label for="about">About</label>
+          <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter about" value="{{programmer.about}}" [(ngModel)]="setValue.about" name="description">
+        </div>
+    
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password" required value="{{programmer.password}}" [(ngModel)]="setValue.password" name="password">
+        </div>
+    
+        <div class="form-group">
+            <label for="login">UserName</label>
+            <input type="text" class="form-control" id="login" placeholder="enter login" required value="{{programmer.username}}" [(ngModel)]="setValue.username" name="login">
+        </div>
+    
+        
+        <div class="form-group">
+            <label for="field">Field</label>
+            <input type="number" class="form-control" id="role" placeholder="enter role" required value="{{programmer.field}}" [(ngModel)]="setValue.field" name="role">
+        </div>
+    
+        <br>
+        <button type="submit" class="btn btn-primary" (click)="setUser()">Submit</button> 
+    }
+    @else {
+        <h1>Not found</h1>
+    }
+</form>
+
+
+
+
+<!-- <button class="btn btn-primary" (click)="setUser()" type="submit" >Create User</button> -->
